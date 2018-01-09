@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Radweb_Core::top_level" title="Radweb" module="Radweb_Core" sortOrder="60" resource="Magento_Backend::content"/>
+        <add id="Radweb_Core::modules" title="Modules" module="Radweb_Core" sortOrder="5" resource="Magento_Backend::content" parent="Radweb_Core::top_level"/>
+    </menu>
+</config>
